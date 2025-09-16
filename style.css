@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter;
+}
+
+form {
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.349);
+    background-color: rgb(255, 254, 169);
+    width: 1400px;
+    height: 800px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    text-align: center;
+    line-height: 50px;
+}
+
+form input {
+    border-radius: 10px;
+    width: 200px;
+    height: 20px;
+    border: solid 1px black;
+}
+
+form label {
+    font-size: 20px;
+}
+
+form button {
+    background-color: rgb(255, 176, 73);
+    width: 200px;
+    height: 20px;
+    border-radius: 100px;
+    border: solid 1px black;
+}

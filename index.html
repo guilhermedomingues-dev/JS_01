@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <form action="">
+        <h1>Formulário</h1>
+
+        <label for="">Nome</label>
+        <input type="text" oninput=mascara_nome() id="nome">
+        <br>
+
+        <label for="">Endereço</label>
+        <input type="text">
+        <br>
+
+        <label for="">CEP</label>
+        <input type="text" oninput=mascara_cep() id="cep" maxlength="10">
+        <br>
+
+        <label for="">CPF</label>
+        <input type="text" oninput=mascara_cpf() id="cpf" maxlength="14">
+        <br>
+
+        <label for="">Telefone</label>
+        <input type="tel" oninput=mascara_telefone() id="telefone" maxlength="14">
+        <br>
+
+        <label for="">CNPJ</label>
+        <input type="text" id="cnpj" oninput=mascara_cnpj() maxlength="18">
+        <br>
+
+        <label for="">Código</label>
+        <input type="text" id="codigo" oninput=mascara_codigo() maxlength="20">
+        <br>
+
+        <button id="btn" onclick="alerta()"><strong>Enviar</strong></button>
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
