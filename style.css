@@ -10,8 +10,8 @@ body {
 form {
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.349);
     background-color: rgb(255, 254, 169);
-    width: 1400px;
-    height: 800px;
+    width: 90%;
+    height: 90%;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -38,4 +38,5 @@ form button {
     height: 20px;
     border-radius: 100px;
     border: solid 1px black;
+
 }
